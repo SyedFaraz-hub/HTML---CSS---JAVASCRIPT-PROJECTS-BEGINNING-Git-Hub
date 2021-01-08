@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container{
+    border: 2px solid black;
+    width: 30% !important;
+    height: 600px !important;
+    margin: 10px auto;
+    background-image:  url(./Backgrround/Wallpaper.jpg);
+}
+
+.input {
+    margin-top: 515px;
+    width: 85%;
+    padding: 2px 2px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+    margin-left: 8px;
+}
+
+.fa-paper-plane-o{
+    
+    font-size: 20px !important;
+    color: white;
+}
+
+.btnRemove{
+    position: relative;
+    left: 360px;
+    margin-top: 8px;
+    
+}
+
+ .fa-trash-o {
+    font-size: 28px !important;
+    
+}
+
+.btn-light{
+    margin-top: -10px !important;
+    position: relative;
+    left: 360px;
+    font-size: 14px !important;
+}
+
+
+
+@media screen and (max-width: 1380px) {
+    
+    .container{
+        width: 90% !important;
+    }  
+    
+    .input {
+        
+        width: 74%;
+        
+    }
+    .btnRemove{
+        left: 210px;
+    }
+
+    .btn-light{
+        left: 205px;
+    }
+  }
+  
+ul {
+        color: white;
+        width:100%;
+        list-style-type: none;
+        padding:10px;   
+        position:absolute;
+        bottom:47px;
+        display:flex;
+        /* overflow-y: scroll; */
+        flex-direction: column;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+
+

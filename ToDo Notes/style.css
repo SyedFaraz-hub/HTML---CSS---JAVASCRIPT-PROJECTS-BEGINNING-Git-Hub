@@ -1,0 +1,67 @@
+body{
+background-image : url(Wallpaper.jpg);
+}
+
+#container {
+    text-align: center;
+}
+
+#input{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+@media screen and  (max-width: 450px) {
+   #input{
+       position: relative;
+      
+       width: 300px;
+   }
+  }
+#add-Text , #remove-Text{
+    font-size: 30px;
+    margin: 15px 5px;
+}
+
+
+.list{
+    font-weight: bold;
+    color: greenyellow ;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    margin: 20px 5px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    
+
+}
+
+.btn1{
+    
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 100px;
+    
+}
+.btn2{
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    color: rgb(223, 221, 221);
+    text-shadow: 2px 4px 5px grey;
+    background-color: grey
+    
+    
+}
+
+
+

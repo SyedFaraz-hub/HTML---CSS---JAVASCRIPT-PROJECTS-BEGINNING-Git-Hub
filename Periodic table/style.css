@@ -1,0 +1,116 @@
+h1 {
+
+    background-color: yellow;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+/* @media only screen and (min-width: 0px) and (max-width: 400px) {
+    h1{
+         font-size: 25px;  }
+
+            .table {
+                width: 120%;
+                position: relative;
+                left: -10x;                
+            }    
+
+            .tablet1{
+             
+                width: 115px;
+                position: relative;
+                left: 73px;
+               
+            }
+
+            
+}
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    h1{
+         font-size: 35px;  }
+
+            .table {
+                width: 100%;
+                position: relative;
+                left: -15px;   
+            }    
+
+}
+            
+
+
+
+     */
+
+
+table {
+
+    width: 1000px;
+    position: relative;
+    left: 280px;
+}
+
+td {
+
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+#tab {
+   
+width: 800px;
+position: relative;
+left: 400px;
+}
+
+.hello {
+
+    border: none;
+}
+
+.purple {
+
+    background-color: rgb(250, 142, 241);
+} 
+
+.blue {
+    background-color: rgb(149, 149, 255);
+}
+
+
+.yellow {
+
+    background-color: rgb(255, 255, 151);
+}
+
+ .orange {
+     background-color: rgb(255, 144, 104);
+ }
+
+ .lightblue {
+
+    background-color: #ceecff;
+ }
+
+ .lightbrown {
+
+    background-color: rgb(255, 218, 163);
+ }
+
+ .lightgreen {
+
+    background-color: rgb(178, 255, 178);
+ }
+
+ .brown {
+     background-color: rgb(196, 148, 76)
+ }
+
+ .lightpurple {
+
+    background-color: rgb(255, 208, 255);
+
+ }

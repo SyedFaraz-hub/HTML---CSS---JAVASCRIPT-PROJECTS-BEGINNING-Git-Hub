@@ -1,0 +1,72 @@
+.Container{
+    width: 355px;
+   top: 50px;
+   border: 2px solid black;
+   height: 325px;
+   background-color: whitesmoke;
+}
+
+
+input{
+    width: 340px;
+    margin: 5px 4px;
+    height: 60px;
+    font-size: 35px;
+    border-radius: 5px;
+    color: black;
+
+}
+
+@media screen and (max-width: 360px) {
+    input{
+        width: 330px;
+        
+    
+    }   
+  }
+
+.cl{
+    height: 45px;
+    margin-top: 2px;
+    width: 335px;
+    left: 6px;
+    position: relative;
+}
+.cl:hover{
+    font-weight: bold;
+    background-color: lightseagreen;
+    color: white;
+}
+
+button {
+    height: 40px;
+    margin-top: 8px;
+    width: 80px;
+    position: relative;
+    left: 6px;
+}
+
+button:hover{
+    font-weight: bold;
+    background-color: lightseagreen;
+    color: white;
+}
+.equal:hover{
+    font-weight: bold;
+    background-color: lightseagreen;
+    color: white;
+}
+.zero:hover{
+    font-weight: bold;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.zero{
+    position: relative;
+    width: 249px;
+}
+.equal{
+    position: relative;
+    left: px;
+}

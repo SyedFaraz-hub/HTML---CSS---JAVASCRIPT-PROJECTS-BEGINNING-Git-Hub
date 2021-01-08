@@ -1,0 +1,64 @@
+body{
+    background-color: black !important;
+}
+
+.contain{
+    text-align: center;
+}
+
+.heading{
+    margin-top: 20px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 4px 5px grey;
+    
+}
+
+
+.number{
+
+    margin-top: 120px;
+}
+
+.h1{margin: 0px 10px;
+    display: inline-block;
+    font-size: 90px !important;
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    
+}
+
+.btn{
+    margin-top: 50px;
+    
+}
+
+.btn1{
+    font-size: 45px;
+    margin: 0px 10px;
+    width: 100px;
+    border-radius: 70px;
+    
+}
+.btn1:hover{
+   color: red;    
+}
+
+
+@media screen and (max-width: 520px) {
+    .number{
+
+        margin-top: 50px !important;
+    }
+    .h1{
+        margin: 0px 5px;
+        width: 105px;
+    }
+
+    .btn{
+        margin-top: 25px;
+        
+    }
+  }
